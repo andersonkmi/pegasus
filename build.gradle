@@ -30,3 +30,7 @@ dependencyManagement {
 test {
 	useJUnitPlatform()
 }
+
+bootJar {
+	mainClass = 'org.codecraftlabs.pegasus.PegasusConfigServiceApplication'
+}
